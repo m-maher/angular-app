@@ -1,0 +1,85 @@
+{
+  "players": [
+    {
+      "unique_id": 32424,
+      "display_name": "wqew",
+      "isMember": true,
+      "email": "admin@admin.com",
+      "first_name": "Mohamed",
+      "last_name": "Ahmed",
+      "gender": "Male",
+      "socialDetails": {
+        "facebook_id": "",
+        "facebook_url": "",
+        "twitter_handle": "",
+        "twitter_id": ""
+      },
+      "id": 1
+    },
+    {
+      "unique_id": 1242,
+      "display_name": "wefewf",
+      "isMember": true,
+      "email": "admin@admin.com",
+      "first_name": "Mohamed",
+      "last_name": "Ahmed",
+      "gender": "Male",
+      "socialDetails": {
+        "facebook_id": "",
+        "facebook_url": "",
+        "twitter_handle": "",
+        "twitter_id": ""
+      },
+      "team": "Marketing",
+      "id": 2
+    },
+    {
+      "unique_id": 233,
+      "display_name": "dwew",
+      "isMember": true,
+      "email": "admin@admin.com",
+      "first_name": "Mohamed",
+      "last_name": "Ahmed",
+      "gender": "Male",
+      "socialDetails": {
+        "facebook_id": "",
+        "facebook_url": "",
+        "twitter_handle": "",
+        "twitter_id": ""
+      },
+      "team": "",
+      "id": 3
+    },
+    {
+      "unique_id": 2332,
+      "display_name": "weq",
+      "isMember": true,
+      "email": "admin@admin.com",
+      "first_name": "Mohamed",
+      "last_name": "Ahmed",
+      "gender": "Male",
+      "socialDetails": {
+        "facebook_id": "",
+        "facebook_url": "",
+        "twitter_handle": "",
+        "twitter_id": ""
+      },
+      "team": "Sales",
+      "id": 4
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "team_name": "HR"
+    },
+    {
+      "id": 2,
+      "team_name": "Marketing"
+    },
+    {
+      "id": 3,
+      "team_name": "Sales"
+    }
+  ]
+}

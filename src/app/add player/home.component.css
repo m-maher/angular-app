@@ -1,0 +1,63 @@
+h1 {
+  font-size: 35px;
+  margin: 30px 0;
+}
+
+.basic-details {
+  border: 1px solid #004d40;
+  margin-bottom: 15px;
+}
+.basic-details h2 {
+  background-color: #004d40;
+  color: #fff;
+  padding: 15px 20px;
+  border-bottom: 1px solid #004d40;
+  text-align: left;
+}
+.basic-details label {
+  margin-left: 15px;
+}
+.basic-details input[type=checkbox] {
+  margin-left: -5px;
+}
+.basic-details .form-check {
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  border: 1px solid #1a237e;
+  margin-bottom: 15px;
+}
+.social h2 {
+  background-color: #1a237e;
+  color: #fff;
+  padding: 15px 20px;
+  border-bottom: 1px solid #1a237e;
+  text-align: left;
+}
+.social label {
+  margin-left: 15px;
+}
+
+.teams {
+  border: 1px solid #b71c1c;
+  margin-bottom: 15px;
+}
+.teams h2 {
+  background-color: #b71c1c;
+  color: #fff;
+  padding: 15px 20px;
+  border-bottom: 1px solid #b71c1c;
+  text-align: left;
+}
+.teams .create-team, .teams label, .teams a {
+  margin-left: 15px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=home.component.css.map */

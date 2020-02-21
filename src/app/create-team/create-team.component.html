@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1>Add Team</h1>
+        </div>
+        <div class="col-12">
+            <form (ngSubmit)=addTeam(team)>
+                <div class="add-teams">
+                    <h2>Create Team</h2>
+                    <div>
+                        <form>
+                            <div class="form-group row">
+                                <div class="col-sm-3">
+                                    <label>addTeam</label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="text" [(ngModel)]="team_data.team_name" name="team_name"
+                                        class="form-control" placeholder="Team..." />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="submit">
+                    <div>
+                        <input type="submit" class="btn btn-light" value="add">
+                        <button routerLink="/home" class="btn btn-light ml-2">back</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

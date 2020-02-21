@@ -1,0 +1,33 @@
+h1 {
+  font-size: 35px;
+  margin: 30px 0;
+}
+
+.add-teams {
+  border: 1px solid #004d40;
+  margin-bottom: 15px;
+}
+.add-teams h2 {
+  background-color: #004d40;
+  color: #fff;
+  padding: 15px 20px;
+  border-bottom: 1px solid #004d40;
+  text-align: left;
+}
+.add-teams label {
+  margin-left: 15px;
+}
+.add-teams input[type=checkbox] {
+  margin-left: -5px;
+}
+.add-teams .form-check {
+  display: flex;
+  align-items: center;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=create-team.component.css.map */
