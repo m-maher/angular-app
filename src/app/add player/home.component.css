@@ -1,6 +1,13 @@
-h1 {
-  font-size: 35px;
+.row {
+  align-items: center;
+}
+.row h1 {
+  font-size: 30px;
   margin: 30px 0;
+}
+.row .players-list {
+  font-size: 30px;
+  color: #09c;
 }
 
 .basic-details {
@@ -53,6 +60,9 @@ h1 {
 }
 .teams .create-team, .teams label, .teams a {
   margin-left: 15px;
+}
+.teams p {
+  margin: 20px 15px;
 }
 
 .submit {

@@ -1,0 +1,13 @@
+h1 {
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.row {
+  align-items: center;
+}
+.row label {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=players-list.component.css.map */

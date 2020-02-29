@@ -17,6 +17,15 @@ export class PlayersService {
     this.http.post('http://localhost:3000/players', JSON.stringify(data), this.httpOptions).toPromise()
   }
 
+
+  getPlayerData():Observable<any> {
+    return this.http.get('http://localhost:3000/players')
+  }
+
+  deletePlayerData(id):Observable<any> {
+    return this.http.delete(`http://localhost:3000/players/${id}`)
+  }
+
   getTeamData():Observable<any> {
     return this.http.get('http://localhost:3000/teams')
   }

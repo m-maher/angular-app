@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-3">
+            <h1>Players List</h1>
+        </div>
+        <div class="col-3">
+            <div class="row">
+                <div class="col-3">
+                    <label>Search</label>
+                </div>
+                <div class="col-9">
+                    <input type="text" class="form-control" [(ngModel)]="term" placeholder="search">
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Select</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Points</th>
+                        <th scope="col">Rewards</th>
+                        <th scope="col">Missions</th>
+                        <th scope="col">Active</th>
+                        <th scope="col">Last Activity</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let player of players|filter:term">
+                        <td>{{player.id}}</td>
+                        <td>{{player.email}}</td>
+                        <td>{{player.first_name}}</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>yes</td>
+                        <td>02/02/2020</td>
+                        <td>
+                            <button class="btn btn-primary" (click)="deletePlayer(player.id)">Remove</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
