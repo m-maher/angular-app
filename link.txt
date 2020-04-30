@@ -1,3 +1,5 @@
 https://github.com/MaxPoon/Data-Structure-and-Algorithms/tree/master/coursera-Data-Structures-and-Algorithms-specialization/Algorithms-on-Graph
 
 https://github.com/MaxPoon/Data-Structure-and-Algorithms/tree/master/coursera-Data-Structures-and-Algorithms-specialization
+
+https://github.com/jungleBadger/FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS/blob/master/troubleshooting/deploy.md#step-4---create-an-additional-role-and-fetch-aws-auth-file
